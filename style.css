@@ -33,11 +33,18 @@
     justify-content: space-between;
 }
 
-.navbarLeftItem {
-    margin: 0px 10px 0px 10px;
+.navbarItem {
     text-decoration: none;
     color : black;
+    font-family: Parastoo;
 }
-.navbarLeftItem :hover {
+
+.navbarRightItem {
+    margin: 0px 10px 0px 10px;
+}
+.navbarLeftItem {
+
+}
+.navbarItem :hover {
     color : yellow;
 }
