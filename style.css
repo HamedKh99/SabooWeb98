@@ -1,0 +1,26 @@
+* {
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #f4f5f7;
+    padding : 5px;
+}
+
+.positionContainer {
+    display: flex;
+    /* width: 70%; */
+    /* margin: auto; */
+    justify-content: space-between;
+}
+
+.navbarLeftItem {
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color : black
+}
+.navbarLeftItem :hover {
+    color : yellow;
+}
