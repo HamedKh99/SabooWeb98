@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('./fonts/Parastoo.eot');
+    src: url('./fonts/Parastoo.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo.woff') format('woff'),
+         url('./fonts/Parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ParastooBold;
+    src: url('./fonts/Parastoo-Bold.eot');
+    src: url('./fonts/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo-Bold.woff') format('woff'),
+         url('./fonts/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 * {
     margin : 0;
     box-sizing: border-box;
@@ -19,7 +36,7 @@
 .navbarLeftItem {
     margin: 0px 10px 0px 10px;
     text-decoration: none;
-    color : black
+    color : black;
 }
 .navbarLeftItem :hover {
     color : yellow;
