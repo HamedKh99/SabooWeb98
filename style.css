@@ -115,3 +115,52 @@
     border-radius: 5px;
 }
 
+.detailedCategories {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detailedCategory {
+    background-color: white;
+    padding: 8px;
+    width : 24%;
+} 
+
+.categoryHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showAll {
+    color: blue;
+}
+
+.categoryNumber {
+    color: grey;
+}
+
+hr {
+    border-top: 1px solid grey;
+    width: 80%;
+    margin: auto;
+}
+
+.categoryItemsContainer {
+    margin-top: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.categoryItem {
+    font-size: 12px;
+    color: #898f99;
+    border : 1px solid #ced3db;
+    border-radius: 8px;
+    padding: 2px;
+    margin : 2px;
+}
+
