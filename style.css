@@ -16,98 +16,102 @@
 }
 
 * {
-    margin : 0;
+    margin: 0px;
     box-sizing: border-box;
+    font-family: Parastoo
 }
 
 .navbar {
     width: 100%;
-    background-color: #f4f5f7;
-    padding : 5px;
+    background-color:#f4f5f7;
+    padding: 5px;
+}
+    
+.centerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin : auto;
 }
 
-.positionContainer {
+.navbarRight {
     display: flex;
-    /* width: 70%; */
-    /* margin: auto; */
-    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.navbarLeft {
+    /* background-color: brown; */
 }
 
 .navbarItem {
-    text-decoration: none;
-    color : black;
     font-family: Parastoo;
+    color: #898f99;
 }
 
 .navbarRightItem {
     margin: 0px 10px 0px 10px;
 }
-.navbarLeftItem {
-
-}
-.navbarItem :hover {
-    color : yellow;
-}
 
 .header {
-    width : 100%;
-    background-color: white;
-    padding : 5px;
-}
-
-#logo {
-
+    width: 100%;
+    background-color:'white';
+    padding: 5px;
+    box-shadow: 0px 5px 5px #b0b6c1;
 }
 
 #verifyAdButton {
     font-family: Parastoo;
     font-size: 12px;
-    color : white;
-    background-color: #198ad6;
-    padding : 8px;
+    color: white;
     border : 0;
-    border-radius: 24px 24px 24px 24px;
-    cursor: progress;
+    background-color:#198ad6;
+    padding: 8px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .main {
-    width: 100%;
     background-color: #f4f5f7;
-    padding-top: 16px;
+    width: 100%;
+    padding-top: 20px;
 }
 
-.columnDir {
+.title {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .searchBar {
     margin-top: 50px;
     background-color: white;
+    /* border-radius: 10%; */
     padding: 10px;
-    width: 100%;
-} 
+}
 
-.shadowBehind {
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+.columnDir {
+    display: flex;
+    flex-direction: column
 }
 
 #searchInput {
     font-family: Parastoo;
-    width: 70%;
+    width: 80%;
     height: 50px;
-    padding: 24px;
-    border : 1px solid #bbbcbf;
     border-radius: 5px;
+    border: 1px solid #bbbcbf;
+    padding: 20px;
 }
 
 #searchButton {
     font-family: Parastoo;
-    width : 20%;
+    width: 15%;
     height: 50px;
-    /* padding : 24px; */
     background-color: #eaedf2;
-    border : 1px solid #bbbcbf;
+    border: 1px solid #bbbcbf;
     border-radius: 5px;
 }
+
+.shadowBehind {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
